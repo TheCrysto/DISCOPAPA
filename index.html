@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>★ DISCO PAPA ★ OFFICIAL HOME PAGE ★ BUY $PAPA TOKEN NOW!!! ★</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🕺</text></svg>">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Press+Start+2P&display=swap');
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background: #000 url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"><rect fill="%23000" width="40" height="40"/><circle fill="%23ff00ff" cx="5" cy="5" r="1"/><circle fill="%2300ffff" cx="25" cy="15" r="1"/><circle fill="%23ffff00" cx="15" cy="35" r="1"/></svg>') repeat;
+      color: #00ff00;
+      font-family: 'Comic Neue', 'Comic Sans MS', cursive;
+      cursor: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"><text y="24" font-size="24">🕺</text></svg>'), auto;
+      overflow-x: hidden;
+    }
+
+    .top-banner {
+      background: linear-gradient(90deg, red, orange, yellow, lime, cyan, blue, magenta, red);
+      background-size: 400% 100%;
+      animation: rainbow 3s linear infinite;
+      padding: 8px;
+      text-align: center;
+      border-bottom: 5px ridge gold;
+    }
+
+    @keyframes rainbow {
+      0% { background-position: 0% 50%; }
+      100% { background-position: 400% 50%; }
+    }
+
+    .blink {
+      animation: blink 0.8s step-end infinite;
+      font-family: 'Press Start 2P', monospace;
+      font-size: 11px;
+      color: #fff;
+      text-shadow: 2px 2px #000;
+    }
+
+    @keyframes blink {
+      50% { opacity: 0; }
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 10px;
+    }
+
+    h1 {
+      font-size: clamp(28px, 6vw, 52px);
+      text-align: center;
+      color: #ff00ff;
+      text-shadow: 3px 3px #00ffff, 6px 6px #ffff00;
+      letter-spacing: 2px;
+      margin: 20px 0;
+      transform: rotate(-2deg);
+    }
+
+    .subtitle {
+      text-align: center;
+      font-size: 22px;
+      color: #ffff00;
+      font-weight: bold;
+    }
+
+    .guest-welcome {
+      border: 8px double #ff0000;
+      background: #330033;
+      padding: 15px;
+      margin: 20px 0;
+      box-shadow: inset 0 0 30px #ff00ff;
+    }
+
+    .marquee-wrap {
+      background: #000080;
+      border: 4px outset #c0c0c0;
+      padding: 10px 0;
+      margin: 15px 0;
+    }
+
+    marquee {
+      font-size: 20px;
+      color: #fff;
+      font-weight: bold;
+    }
+
+    .hit-counter {
+      display: flex;
+      justify-content: center;
+      gap: 4px;
+      margin: 15px 0;
+    }
+
+    .hit-digit {
+      background: #111;
+      border: 2px inset #888;
+      color: #f00;
+      font-family: 'Press Start 2P', monospace;
+      font-size: 14px;
+      padding: 8px 6px;
+      min-width: 28px;
+      text-align: center;
+    }
+
+    .grandpa-hero {
+      text-align: center;
+      font-size: 120px;
+      line-height: 1;
+      animation: dance 0.5s ease-in-out infinite alternate;
+      filter: drop-shadow(0 0 20px #ff00ff);
+    }
+
+    @keyframes dance {
+      from { transform: rotate(-8deg) scale(1); }
+      to { transform: rotate(8deg) scale(1.05); }
+    }
+
+    .bio-box {
+      border: 6px groove #00ff00;
+      background: linear-gradient(180deg, #1a0033, #003300);
+      padding: 20px;
+      margin: 25px 0;
+    }
+
+    .bio-box p {
+      font-size: 18px;
+      line-height: 1.6;
+      color: #fff;
+    }
+
+    .token-section {
+      border: 10px ridge gold;
+      background: repeating-linear-gradient(
+        45deg,
+        #222,
+        #222 10px,
+        #333 10px,
+        #333 20px
+      );
+      padding: 25px;
+      text-align: center;
+      margin: 30px 0;
+    }
+
+    .token-section h2 {
+      color: gold;
+      font-size: 36px;
+      text-decoration: underline wavy #ff00ff;
+    }
+
+    .contract {
+      font-family: 'Press Start 2P', monospace;
+      font-size: 8px;
+      word-break: break-all;
+      color: #0f0;
+      background: #000;
+      padding: 10px;
+      border: 2px dashed #f0f;
+      margin: 15px auto;
+      max-width: 100%;
+    }
+
+    .buy-btn {
+      display: inline-block;
+      font-size: 28px;
+      font-family: 'Comic Neue', cursive;
+      font-weight: bold;
+      color: #000;
+      background: linear-gradient(180deg, #ffff00, #ff8800);
+      border: 5px outset #fff;
+      padding: 15px 40px;
+      text-decoration: none;
+      animation: pulse 1s infinite;
+      margin: 10px;
+    }
+
+    .buy-btn:hover {
+      border-style: inset;
+      color: #f00;
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.08); }
+    }
+
+    .under-construction {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+      font-size: 24px;
+      color: #ff0;
+      margin: 20px 0;
+    }
+
+    .spin {
+      display: inline-block;
+      animation: spin 2s linear infinite;
+      font-size: 40px;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    table.nav-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+      background: #c0c0c0;
+    }
+
+    table.nav-table td {
+      border: 3px outset #fff;
+      padding: 12px;
+      text-align: center;
+      background: linear-gradient(180deg, #e0e0e0, #808080);
+    }
+
+    table.nav-table a {
+      color: #000080;
+      font-weight: bold;
+      font-size: 16px;
+      text-decoration: underline;
+    }
+
+    .guestbook {
+      background: #ffffcc;
+      color: #000;
+      border: 5px solid #000;
+      padding: 15px;
+      margin: 25px 0;
+      font-size: 14px;
+    }
+
+    .guestbook entry {
+      display: block;
+      border-bottom: 1px dotted #666;
+      padding: 8px 0;
+    }
+
+    .webring {
+      text-align: center;
+      padding: 20px;
+      background: #008080;
+      border: 4px double #fff;
+      margin-top: 30px;
+    }
+
+    .webring img { font-size: 48px; }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      font-size: 12px;
+      color: #888;
+    }
+
+    .midi-player {
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      background: #c0c0c0;
+      border: 3px outset #fff;
+      padding: 8px 12px;
+      font-size: 11px;
+      color: #000;
+      z-index: 999;
+      box-shadow: 4px 4px #000;
+    }
+
+    .sparkle {
+      position: fixed;
+      pointer-events: none;
+      font-size: 20px;
+      animation: fall 3s linear forwards;
+      z-index: 1000;
+    }
+
+    @keyframes fall {
+      to {
+        transform: translateY(100vh) rotate(720deg);
+        opacity: 0;
+      }
+    }
+
+    .best-viewed {
+      text-align: center;
+      font-size: 10px;
+      color: #f0f;
+      margin: 10px;
+    }
+
+    .frame-fake {
+      border: 12px solid #8b4513;
+      background: #deb887;
+      padding: 4px;
+      margin: 15px 0;
+    }
+
+    .frame-inner {
+      border: 2px inset #654321;
+      background: #000;
+      padding: 10px;
+    }
+
+    #email-form input, #email-form button {
+      font-family: 'Comic Neue', cursive;
+      font-size: 16px;
+      margin: 5px;
+      padding: 8px;
+    }
+
+    .new-badge {
+      background: red;
+      color: yellow;
+      font-size: 10px;
+      padding: 2px 6px;
+      animation: blink 0.5s infinite;
+      vertical-align: super;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-banner">
+    <span class="blink">!!! WELCOME TO THE FUTURE OF DISCO AND CRYPTO YEAR 1998 !!!</span>
+  </div>
+
+  <div class="container">
+    <p class="best-viewed">Best viewed in Netscape Navigator 4.0 | 800x600 | Please sign my guestbook!!!</p>
+
+    <h1>★ DISCO PAPA ★</h1>
+    <p class="subtitle">Harold "Hustle" McGroove — Age 72 — Future World Famous</p>
+
+    <div class="hit-counter" aria-label="visitor counter">
+      <span class="hit-digit">0</span>
+      <span class="hit-digit">0</span>
+      <span class="hit-digit">4</span>
+      <span class="hit-digit">2</span>
+      <span class="hit-digit">0</span>
+      <span class="hit-digit">6</span>
+      <span class="hit-digit">9</span>
+    </div>
+
+    <div class="marquee-wrap">
+      <marquee behavior="scroll" direction="left" scrollamount="12">
+        🕺 BUY $PAPA TOKEN BEFORE MY GRANDKIDS FIND OUT 🕺 DISCO NEVER DIED IT WENT TO THE BLOCKCHAIN 🕺 I INVENTED THE HUSTLE IN 1974 TRUST ME 🕺
+      </marquee>
+      <marquee behavior="scroll" direction="right" scrollamount="8">
+        ★★★ HOT NEW: PAPA NFT COMING SOON (MAYBE) ★★★ EMAIL ME AT disco_papa@hotmail.com ★★★
+      </marquee>
+    </div>
+
+    <table class="nav-table" role="navigation">
+      <tr>
+        <td><a href="#bio">MY STORY</a></td>
+        <td><a href="#token">$PAPA COIN</a> <span class="new-badge">NEW!!!</span></td>
+        <td><a href="#dance">DANCE MOVES</a></td>
+        <td><a href="#guestbook">GUESTBOOK</a></td>
+      </tr>
+      <tr>
+        <td><a href="#photos">PHOTOS</a></td>
+        <td><a href="#faq">F.A.Q.</a></td>
+        <td><a href="mailto:disco_papa@hotmail.com">EMAIL PAPA</a></td>
+        <td><a href="#token">GET RICH???</a></td>
+      </tr>
+    </table>
+
+    <div class="grandpa-hero" title="Harold dancing">🕺👴✨</div>
+
+    <div class="under-construction">
+      <span class="spin">⚙️</span>
+      <span>WEBSITE UNDER CONSTRUCTION SINCE 1977</span>
+      <span class="spin">⚙️</span>
+    </div>
+
+    <div class="guest-welcome frame-fake">
+      <div class="frame-inner">
+        <p style="text-align:center; color:#0ff; font-size:20px;">
+          Hello friend!!! You are visitor number <strong style="color:#f0f">420,069</strong>!!!
+          <br>Sign my guestbook or I will do the worm at your wedding!!!
+        </p>
+      </div>
+    </div>
+
+    <section id="bio" class="bio-box">
+      <h2 style="color:#ff0; text-align:center;">📼 WHO IS DISCO PAPA?? 📼</h2>
+      <p>
+        Greetings Internet People!!! My name is Harold McGroove but everybody call me <strong style="color:#f0f">DISCO PAPA</strong>.
+        I am 72 years young and I still got the moves that made the ladies faint in 1976 (doctor said it was dehydration but I know better).
+      </p>
+      <p>
+        After my wife Linda said "Harold stop dancing in the grocery store" I decided to become <em>INTERNATIONALLY FAMOUS</em>.
+        My grandson Tyler showed me something called "crypto" on his telephone. I don't understand computers but I understand <strong>GOLD CHAINS AND DISCO BALLS</strong>.
+        So now I have my own <span style="color:#0f0; font-size:22px;">$PAPA TOKEN</span> and soon Oprah will call. You'll see.
+      </p>
+      <p style="color:#ff0;">
+        ⚠️ DISCLAIMER: I am not a financial advisor. I still use a flip phone. Invest responsibly or don't. Papa loves you anyway. ⚠️
+      </p>
+    </section>
+
+    <section id="token" class="token-section">
+      <h2>💰 $PAPA — THE OFFICIAL DISCO PAPA COIN 💰</h2>
+      <p style="color:#fff; font-size:18px;">
+        One token = One imaginary dance lesson from Papa<br>
+        (lessons not actually redeemable in most jurisdictions)
+      </p>
+      <div class="contract">
+        CONTRACT: 0xDISC0PAPA72YEAR0LDHUSTLE42069BALLROOMFLOOR
+      </div>
+      <a class="buy-btn" href="#" onclick="alert('TYLER SAID THE WALLET IS NOT CONNECTED YET. CALL MY LANDLINE.'); return false;">
+        🚀 BUY $PAPA NOW 🚀
+      </a>
+      <a class="buy-btn" href="#" onclick="alert('WHITEPAPER IS WRITTEN ON NAPKIN IN MY GARAGE.'); return false;">
+        📄 WHITEPAPER (PDF)
+      </a>
+      <p style="color:#f0f; font-size:14px; margin-top:20px;">
+        * Tokenomics: 69% for Papa's velour collection | 31% for more glitter *
+      </p>
+    </section>
+
+    <section id="dance" class="bio-box">
+      <h2 style="color:#0ff;">🪩 PAPA'S SIGNATURE MOVES 🪩</h2>
+      <ul style="color:#fff; font-size:17px; line-height:2;">
+        <li><strong>The Suspicious Point</strong> — point at ceiling like you found the beat</li>
+        <li><strong>The Hip Replacement Shuffle</strong> — doctor approved since 2019</li>
+        <li><strong>The Invisible Hustle</strong> — same as regular hustle but safer for knees</li>
+        <li><strong>The Grandpa Glide</strong> — patented pending (Linda said no)</li>
+      </ul>
+    </section>
+
+    <section id="photos" style="text-align:center; margin:30px 0;">
+      <h2 style="color:#f0f;">📸 PHOTO ALBUM 📸</h2>
+      <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:15px;">
+        <div style="border:8px solid #fff; background:#333; padding:30px; font-size:64px;">🪩</div>
+        <div style="border:8px solid #ff0; background:#333; padding:30px; font-size:64px;">👴🕺</div>
+        <div style="border:8px solid #0f0; background:#333; padding:30px; font-size:64px;">✨🎸</div>
+        <div style="border:8px solid #f0f; background:#333; padding:30px; font-size:64px;">🕶️💃</div>
+      </div>
+      <p style="color:#888; font-size:12px;">(Photos loading... since 1999)</p>
+    </section>
+
+    <section id="faq" class="guestbook">
+      <h2>❓ F.A.Q. ❓</h2>
+      <p><strong>Q: Is this real crypto?</strong><br>A: It's real in my heart and on this webpage.</p>
+      <p><strong>Q: Why should I buy $PAPA?</strong><br>A: Because Papa believed in YOU before you clicked this link.</p>
+      <p><strong>Q: Are you actually 72?</strong><br>A: Young enough to hustle, old enough to know better, too old to care.</p>
+    </section>
+
+    <section id="guestbook" class="guestbook">
+      <h2>📝 SIGN MY GUESTBOOK 📝</h2>
+      <form id="email-form" onsubmit="signGuestbook(event)">
+        <label>Your Name:</label><br>
+        <input type="text" name="name" placeholder="cool_dancer_2003" required><br>
+        <label>Message for Papa:</label><br>
+        <input type="text" name="msg" placeholder="You inspire me!!!" required><br>
+        <button type="submit" style="background:#0f0; border:3px outset #fff; font-weight:bold;">SUBMIT TO PAPA</button>
+      </form>
+      <div id="entries" style="margin-top:15px;">
+        <entry><strong>DiscoDiane1978:</strong> Papa you still got it!!! xoxo</entry>
+        <entry><strong>Tyler_Grandson:</strong> Grandpa please stop emailing the SEC</entry>
+        <entry><strong>Anonymous:</strong> best website i ever seen on geocities</entry>
+      </div>
+    </section>
+
+    <div class="webring">
+      <p style="color:#fff; font-weight:bold;">DISCO PAPA WEBRING — PREVIOUS | RANDOM | NEXT</p>
+      <p>🕺 ← You are here → 🕺</p>
+      <p style="font-size:11px; color:#ccc;">Member of the International Old Man Hustle Federation</p>
+    </div>
+
+    <footer>
+      <p>© 1998-2026 Harold McGroove / DISCO PAPA ENTERPRISES LLC (not really)</p>
+      <p>Made with Microsoft FrontPage and PURE PASSION</p>
+      <p><a href="#" style="color:#f0f;" onclick="alert('GeoCities is gone but Papa lives forever'); return false;">GeoCities Home</a></p>
+    </footer>
+  </div>
+
+  <div class="midi-player" id="midi">
+    🎵 Now Playing: "Stayin' Alive" (MIDI) 🔊
+    <button onclick="toggleMidi()" style="font-size:10px; margin-left:8px;">STOP</button>
+  </div>
+
+  <script>
+    function signGuestbook(e) {
+      e.preventDefault();
+      const form = e.target;
+      const name = form.name.value;
+      const msg = form.msg.value;
+      const entry = document.createElement('entry');
+      entry.innerHTML = '<strong>' + escapeHtml(name) + ':</strong> ' + escapeHtml(msg);
+      document.getElementById('entries').prepend(entry);
+      form.reset();
+      alert('PAPA SAYS THANK YOU!!! YOU ARE OFFICIALLY IN THE DISCO FAMILY!!!');
+    }
+
+    function escapeHtml(s) {
+      const d = document.createElement('div');
+      d.textContent = s;
+      return d.innerHTML;
+    }
+
+    let midiOn = true;
+    function toggleMidi() {
+      midiOn = !midiOn;
+      document.getElementById('midi').innerHTML = midiOn
+        ? '🎵 Now Playing: "Stayin\' Alive" (MIDI) 🔊 <button onclick="toggleMidi()" style="font-size:10px; margin-left:8px;">STOP</button>'
+        : '🔇 MIDI Stopped (Papa is sad) <button onclick="toggleMidi()" style="font-size:10px; margin-left:8px;">PLAY</button>';
+    }
+
+    setInterval(() => {
+      const s = document.createElement('div');
+      s.className = 'sparkle';
+      s.textContent = ['✨', '⭐', '🪩', '💿', '🕺'][Math.floor(Math.random() * 5)];
+      s.style.left = Math.random() * 100 + 'vw';
+      s.style.top = '-30px';
+      document.body.appendChild(s);
+      setTimeout(() => s.remove(), 3000);
+    }, 400);
+
+    document.title = document.title + ' [' + new Date().toLocaleTimeString() + ']';
+  </script>
+</body>
+</html>
