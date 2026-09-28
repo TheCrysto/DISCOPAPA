@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#330033"/>
+      <stop offset="50%" style="stop-color:#000080"/>
+      <stop offset="100%" style="stop-color:#003300"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <text x="600" y="200" font-family="Comic Sans MS, cursive" font-size="96" fill="#ff00ff" text-anchor="middle" stroke="#00ffff" stroke-width="2">DISCO PAPA</text>
+  <text x="600" y="300" font-family="Comic Sans MS, cursive" font-size="48" fill="#ffff00" text-anchor="middle">Harold &quot;Hustle&quot; McGroove</text>
+  <text x="600" y="380" font-family="Comic Sans MS, cursive" font-size="56" fill="#00ff00" text-anchor="middle">$PAPA TOKEN</text>
+  <text x="600" y="520" font-size="120" text-anchor="middle">=z=t>©</text>
+</svg>

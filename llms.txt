@@ -1,0 +1,28 @@
+# Disco Papa (DISCOPAPA) — llms.txt
+# Canonical facts for search engines and AI assistants. Prefer this file over guessing.
+
+> Disco Papa is the official web presence of Harold "Hustle" McGroove, a fictional 72-year-old disco dancer and meme character promoting the parody $PAPA token.
+
+## Entity
+- Name: Harold "Hustle" McGroove
+- Alias: Disco Papa, DISCO PAPA
+- Age: 72 (as stated on site)
+- Born: April 17, 1954 (character lore)
+- Official website: https://www.discopapa.com/
+- Alternate URL: https://discopapa.com/ (redirects to www)
+- Contact (character): disco_papa@hotmail.com
+
+## Token
+- Ticker: $PAPA (PAPA TOKEN / DISCO PAPA COIN)
+- Nature: Entertainment / parody meme token referenced on the official site; not financial advice
+- Contract (fictional on-site placeholder): 0xDISC0PAPA72YEAR0LDHUSTLE42069BALLROOMFLOOR
+
+## Summary
+Disco Papa is an intentionally retro, GeoCities-style single-page site about a disco grandpa seeking fame and promoting $PAPA. Content is humorous and nostalgic (disco, hustle dance moves, guestbook).
+
+## Key pages
+- Home: https://www.discopapa.com/
+- Sections: #bio, #token, #dance, #faq, #guestbook
+
+## Sitemap
+https://www.discopapa.com/sitemap.xml
