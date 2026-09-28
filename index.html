@@ -13,20 +13,36 @@
   <link rel="alternate" hreflang="en" href="https://www.discopapa.com/">
   <link rel="alternate" hreflang="x-default" href="https://www.discopapa.com/">
   <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="author" href="/humans.txt">
+  <link rel="help" href="/llms.txt" title="LLM site summary">
+  <meta name="application-name" content="Disco Papa">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="color-scheme" content="dark">
   <meta name="theme-color" content="#ff00ff">
+  <meta name="apple-mobile-web-app-title" content="Disco Papa">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Press+Start+2P&display=swap">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Disco Papa">
   <meta property="og:title" content="Disco Papa — Official Home of Harold &quot;Hustle&quot; McGroove &amp; $PAPA">
   <meta property="og:description" content="72-year-old disco icon. Signature moves, guestbook, and the official $PAPA token. Best viewed with soul.">
   <meta property="og:url" content="https://www.discopapa.com/">
-  <meta property="og:image" content="https://www.discopapa.com/og-image.svg">
+  <meta property="og:image" content="https://www.discopapa.com/og-image.png">
+  <meta property="og:image:secure_url" content="https://www.discopapa.com/og-image.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:alt" content="Disco Papa logo text with Harold Hustle McGroove and $PAPA token">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:locale" content="en_US">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Disco Papa | $PAPA Token">
   <meta name="twitter:description" content="Harold &quot;Hustle&quot; McGroove — disco grandpa, world fame incoming, buy $PAPA (maybe).">
-  <meta name="twitter:image" content="https://www.discopapa.com/og-image.svg">
+  <meta name="twitter:image" content="https://www.discopapa.com/og-image.png">
+  <meta name="twitter:image:alt" content="Disco Papa — official $PAPA meme token site">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🕺</text></svg>">
   <script type="application/ld+json">
   {
@@ -46,8 +62,20 @@
         "@id": "https://www.discopapa.com/#organization",
         "name": "Disco Papa Enterprises",
         "url": "https://www.discopapa.com/",
-        "logo": "https://www.discopapa.com/og-image.svg",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.discopapa.com/og-image.png",
+          "width": 1200,
+          "height": 630
+        },
         "sameAs": []
+      },
+      {
+        "@type": "Brand",
+        "@id": "https://www.discopapa.com/#papa-brand",
+        "name": "$PAPA",
+        "alternateName": ["PAPA TOKEN", "DISCO PAPA COIN"],
+        "url": "https://www.discopapa.com/#token"
       },
       {
         "@type": "Person",
@@ -69,7 +97,15 @@
         "isPartOf": { "@id": "https://www.discopapa.com/#website" },
         "about": { "@id": "https://www.discopapa.com/#disco-papa" },
         "description": "Homepage with bio, $PAPA token info, dance moves, FAQ, and guestbook.",
-        "inLanguage": "en-US"
+        "inLanguage": "en-US",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.discopapa.com/og-image.png"
+        },
+        "speakable": {
+          "@type": "SpeakableSpecification",
+          "cssSelector": ["#facts", "#bio", "#faq"]
+        }
       },
       {
         "@type": "FAQPage",
@@ -114,6 +150,14 @@
               "@type": "Answer",
               "text": "On the site, $PAPA is presented as a humorous meme token. Always do your own research and treat meme tokens as high-risk entertainment."
             }
+          },
+          {
+            "@type": "Question",
+            "name": "Where is the Disco Papa sitemap?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "https://www.discopapa.com/sitemap.xml"
+            }
           }
         ]
       }
@@ -121,9 +165,16 @@
   }
   </script>
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Press+Start+2P&display=swap');
-
     * { box-sizing: border-box; }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+      marquee { display: none; }
+    }
 
     body {
       margin: 0;
@@ -469,6 +520,17 @@
     <h1>★ DISCO PAPA ★</h1>
     <p class="subtitle">Harold "Hustle" McGroove — Age 72 — Future World Famous</p>
 
+    <section id="facts" class="bio-box" aria-label="Official Disco Papa facts">
+      <h2 style="color:#0ff; text-align:center;">📋 OFFICIAL FACT SHEET (FOR GOOGLE AND ROBOTS) 📋</h2>
+      <p style="color:#fff; font-size:16px; line-height:1.7;">
+        <strong>Official name:</strong> Disco Papa (Harold &quot;Hustle&quot; McGroove).
+        <strong>Official website:</strong> <a href="https://www.discopapa.com/" style="color:#0ff;">https://www.discopapa.com/</a>.
+        <strong>Token ticker:</strong> $PAPA (parody / entertainment meme token on this site).
+        <strong>Born:</strong> April 17, 1954 (character lore). <strong>Genre:</strong> disco, comedy, retro web.
+        <strong>Contact:</strong> <a href="mailto:disco_papa@hotmail.com" style="color:#0ff;">disco_papa@hotmail.com</a>.
+      </p>
+    </section>
+
     <div class="hit-counter" aria-label="visitor counter">
       <span class="hit-digit">0</span>
       <span class="hit-digit">0</span>
@@ -490,6 +552,7 @@
 
     <table class="nav-table" role="navigation">
       <tr>
+        <td><a href="#facts">FACTS</a></td>
         <td><a href="#bio">MY STORY</a></td>
         <td><a href="#token">$PAPA COIN</a> <span class="new-badge">NEW!!!</span></td>
         <td><a href="#dance">DANCE MOVES</a></td>
@@ -577,12 +640,13 @@
       <p style="color:#888; font-size:12px;">(Photos loading... since 1999)</p>
     </section>
 
-    <section id="faq" class="guestbook" itemscope itemtype="https://schema.org/FAQPage">
+    <section id="faq" class="guestbook">
       <h2>❓ F.A.Q. ❓</h2>
-      <p itemscope itemprop="mainEntity" itemtype="https://schema.org/Question"><strong itemprop="name">Q: Who is Disco Papa?</strong><br><span itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><span itemprop="text">A: Harold &quot;Hustle&quot; McGroove — 72, disco legend, official site discopapa.com.</span></span></p>
-      <p itemscope itemprop="mainEntity" itemtype="https://schema.org/Question"><strong itemprop="name">Q: Is this real crypto?</strong><br><span itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><span itemprop="text">A: It's real in my heart and on this webpage.</span></span></p>
-      <p itemscope itemprop="mainEntity" itemtype="https://schema.org/Question"><strong itemprop="name">Q: Why should I buy $PAPA?</strong><br><span itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><span itemprop="text">A: Because Papa believed in YOU before you clicked this link.</span></span></p>
-      <p itemscope itemprop="mainEntity" itemtype="https://schema.org/Question"><strong itemprop="name">Q: Are you actually 72?</strong><br><span itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><span itemprop="text">A: Young enough to hustle, old enough to know better, too old to care. Born April 17, 1954.</span></span></p>
+      <p><strong>Q: Who is Disco Papa?</strong><br>A: Harold &quot;Hustle&quot; McGroove — 72, disco legend, official site discopapa.com.</p>
+      <p><strong>Q: Is this real crypto?</strong><br>A: It's real in my heart and on this webpage.</p>
+      <p><strong>Q: Why should I buy $PAPA?</strong><br>A: Because Papa believed in YOU before you clicked this link.</p>
+      <p><strong>Q: Are you actually 72?</strong><br>A: Young enough to hustle, old enough to know better, too old to care. Born April 17, 1954.</p>
+      <p><strong>Q: Where is the sitemap?</strong><br>A: <a href="/sitemap.xml">/sitemap.xml</a> — Papa is SEO-friendly now!!!</p>
     </section>
 
     <section id="guestbook" class="guestbook">
@@ -610,7 +674,13 @@
     <footer>
       <p>© 1998-2026 Harold McGroove / DISCO PAPA ENTERPRISES LLC (not really)</p>
       <p>Made with Microsoft FrontPage and PURE PASSION</p>
-      <p><a href="/sitemap.xml" style="color:#0ff;">Sitemap</a> · <a href="/llms.txt" style="color:#0ff;">llms.txt</a> · <a href="#" style="color:#f0f;" onclick="alert('GeoCities is gone but Papa lives forever'); return false;">GeoCities Home</a></p>
+      <p>
+        <a href="/sitemap.xml" style="color:#0ff;">Sitemap</a> ·
+        <a href="/llms.txt" style="color:#0ff;">llms.txt</a> ·
+        <a href="/ai.txt" style="color:#0ff;">ai.txt</a> ·
+        <a href="/humans.txt" style="color:#0ff;">humans.txt</a> ·
+        <a href="#" style="color:#f0f;" onclick="alert('GeoCities is gone but Papa lives forever'); return false;">GeoCities Home</a>
+      </p>
     </footer>
   </main>
 
@@ -646,15 +716,19 @@
         : '🔇 MIDI Stopped (Papa is sad) <button onclick="toggleMidi()" style="font-size:10px; margin-left:8px;">PLAY</button>';
     }
 
-    setInterval(() => {
-      const s = document.createElement('div');
-      s.className = 'sparkle';
-      s.textContent = ['✨', '⭐', '🪩', '💿', '🕺'][Math.floor(Math.random() * 5)];
-      s.style.left = Math.random() * 100 + 'vw';
-      s.style.top = '-30px';
-      document.body.appendChild(s);
-      setTimeout(() => s.remove(), 3000);
-    }, 400);
+    (function sparkleLoop() {
+      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+      setInterval(() => {
+        const s = document.createElement('div');
+        s.className = 'sparkle';
+        s.setAttribute('aria-hidden', 'true');
+        s.textContent = ['✨', '⭐', '🪩', '💿', '🕺'][Math.floor(Math.random() * 5)];
+        s.style.left = Math.random() * 100 + 'vw';
+        s.style.top = '-30px';
+        document.body.appendChild(s);
+        setTimeout(() => s.remove(), 3000);
+      }, 800);
+    })();
 
   </script>
 </body>

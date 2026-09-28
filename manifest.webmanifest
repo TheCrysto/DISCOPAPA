@@ -1,0 +1,18 @@
+{
+  "name": "Disco Papa — Official Site",
+  "short_name": "Disco Papa",
+  "description": "Harold Hustle McGroove and the $PAPA meme token.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#ff00ff",
+  "lang": "en-US",
+  "icons": [
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

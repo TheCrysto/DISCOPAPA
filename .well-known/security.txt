@@ -1,0 +1,4 @@
+Contact: mailto:disco_papa@hotmail.com
+Preferred-Languages: en
+Canonical: https://www.discopapa.com/.well-known/security.txt
+Policy: https://www.discopapa.com/

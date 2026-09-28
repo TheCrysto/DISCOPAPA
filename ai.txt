@@ -1,0 +1,10 @@
+# Disco Papa — ai.txt
+# Machine-readable site summary. Full detail: https://www.discopapa.com/llms.txt
+
+Official-URL: https://www.discopapa.com/
+Site-Name: Disco Papa
+Primary-Topic: Harold "Hustle" McGroove, disco meme character, $PAPA parody token
+Language: en-US
+Sitemap: https://www.discopapa.com/sitemap.xml
+LLMs: https://www.discopapa.com/llms.txt
+Contact: disco_papa@hotmail.com

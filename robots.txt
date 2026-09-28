@@ -1,3 +1,5 @@
+# Disco Papa — https://www.discopapa.com/
+
 User-agent: *
 Allow: /
 
@@ -13,7 +15,15 @@ Allow: /
 User-agent: anthropic-ai
 Allow: /
 
+User-agent: Claude-Web
+Allow: /
+
 User-agent: PerplexityBot
 Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+Host: www.discopapa.com
 
 Sitemap: https://www.discopapa.com/sitemap.xml

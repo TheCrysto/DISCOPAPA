@@ -1,0 +1,12 @@
+/* TEAM */
+Disco Papa: Harold "Hustle" McGroove (character)
+Tyler: Grandson & reluctant tech support
+
+/* SITE */
+Last update: 2026-09-28
+Language: English
+Standards: HTML5, JSON-LD, llms.txt, sitemap.xml
+Location: The dance floor (worldwide)
+
+/* THANKS */
+Bee Gees, GeoCities, glitter manufacturers everywhere
